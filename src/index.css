@@ -11,3 +11,98 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+header {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+header .headerContent {
+  text-align: center;
+}
+
+.banner {
+  background-image: url(./../public/glassesImage/pngtree-an-asian-girl-is-wearing-glasses-and-walking-down-the-street-picture-image_2647152.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+
+.bannerOverlay {
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 100%;
+}
+
+.cardImg {
+  padding-top: 150px;
+  text-align: right;
+}
+
+.cardImg .img {
+  position: relative;
+}
+
+.cardImg .img .img_model {
+  width: 200px;
+}
+
+.cardImg .img .glassesShow {
+  position: absolute;
+  top: 65px;
+  right: 40px;
+}
+
+.cardImg .img .glassesShow img {
+  width: 120px;
+}
+
+.cardImg .img .cardContent {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 10px 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 200px;
+  text-align: left;
+}
+
+.cardContent h6 {
+  font-weight: bold;
+}
+
+.cardContent p {
+  margin-bottom: 0;
+  font-size: 10px;
+  color: #fff;
+}
+
+.glasses .glassesItem {
+  /* z-index: 2; */
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.glasses {
+  padding-top: 150px;
+}
+
+.glassesImg img {
+  width: 100px;
+}
+
+.glassesButton {
+  border: none;
+  padding: 0;
+}
+
